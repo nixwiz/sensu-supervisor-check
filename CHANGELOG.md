@@ -9,5 +9,10 @@ Versioning](http://semver.org/spec/v2.0.0.html).
 
 ## [0.1.0] - 2020-04-28
 
+### Changed
+- Cleanup and add Go Report Card
+
+## [0.1.0] - 2020-04-28
+
 ### Added
 - Initial release

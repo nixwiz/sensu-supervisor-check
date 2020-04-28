@@ -66,7 +66,7 @@ If you're using an earlier version of sensuctl, you can find the asset on the [B
 **NOTE:**  This plugin does not currently support the use of username/password authentication to the
 Supervisor URL or UNIX domain socket.
 
-#### Using a URL
+#### Using HTTP
 ```yml
 ---
 type: CheckConfig

@@ -29,7 +29,7 @@ var (
 	}
 
 	options = []*sensu.PluginConfigOption{
-		&sensu.PluginConfigOption{
+		{
 			Path:      "host",
 			Env:       "SUPERVISOR_HOST",
 			Argument:  "host",
@@ -38,7 +38,7 @@ var (
 			Usage:     "Host running Supervisor",
 			Value:     &plugin.Host,
 		},
-		&sensu.PluginConfigOption{
+		{
 			Path:      "port",
 			Env:       "SUPERVISOR_PORT",
 			Argument:  "port",
@@ -47,7 +47,7 @@ var (
 			Usage:     "Supervisor listening port",
 			Value:     &plugin.Port,
 		},
-		&sensu.PluginConfigOption{
+		{
 			Path:      "socket",
 			Env:       "SUPERVISOR_SOCKET",
 			Argument:  "socket",
@@ -56,7 +56,7 @@ var (
 			Usage:     "Supervisor listening UNIX domain socket",
 			Value:     &plugin.Socket,
 		},
-		&sensu.PluginConfigOption{
+		{
 			Path:      "critical",
 			Env:       "SUPERVISOR_CRITICAL",
 			Argument:  "critical",
